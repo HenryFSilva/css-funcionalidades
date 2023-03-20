@@ -23,8 +23,8 @@ header{
     margin: 1% 1%; /*Margem*/
     padding: 15px; /*Largura*/
     margin-bottom: 10px; /*Define a area e ou margem*/
-    border: 2px solid #ec225e;
-    color:#ec225e;
+    border: 2px solid #ec225e;/*Adicionado borda*/
+    color:#ec225e;/*cor das letras*/
 }
 
 /*Trabalhando as imagens*/
