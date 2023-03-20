@@ -34,6 +34,7 @@ header{
     margin-bottom: 20px; /*Espaço entre cada imagem e botão*/
     background-position: center; /*Posição das imagens*/
     background-size: cover; /*Renderização da imagem*/
+    border: 5px solid #269199;
 }
 #img-1{
     background-image: url('../img/carro1.jpg'); /*Adicionando uma imagem*/
