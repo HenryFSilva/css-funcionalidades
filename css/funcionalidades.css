@@ -1,0 +1,94 @@
+* {padding: 0; margin: 0; box-sizing: border-box;} /*Resetando*/
+
+/*Cabeçalho*/
+header{
+    background-color: #ec225e;/*Modifica a coloração do cabeçalho*/
+    color: #020305; /*Alterar coloração das letras do cabeçalho*/
+    text-align: center; /*Mudar posição do texto*/
+    padding: 15px;/*Largura do cabeçalho*/
+    border-bottom: 5px solid #269199; /*Adicionar cor, se vai ser preenchido e tamanho a borda do cabeçalho */
+}
+
+/*Main galeria de produtos*/
+.container{
+    background-color: #020305;/*Modifica a cor do fundo da nossa galeria*/
+    /*min-height: 30vh;/*Altura das boxes*/
+    padding: 30px;/*Largura da pagina galeria*/
+}
+
+/*Carros*/
+.card{
+    width: 31%; /*Largura*/
+    display: inline-block; /*Deixamos lado a lado*/
+    margin: 1% 1%; /*Margem*/
+    padding: 15px; /*Largura*/
+    margin-bottom: 10px; /*Define a area e ou margem*/
+    border: 2px solid #ec225e;
+    color:#ec225e;
+}
+
+/*Trabalhando as imagens*/
+.product-image{
+    height: 190px; /*Tamanho das imagens*/
+    width: 100%; /*Zoom da imagens*/
+    margin-bottom: 20px; /*Espaço entre cada imagem e botão*/
+    background-position: center; /*Posição das imagens*/
+    background-size: cover; /*Renderização da imagem*/
+}
+#img-1{
+    background-image: url('../img/carro1.jpg'); /*Adicionando uma imagem*/
+}
+#img-2{
+    background-image: url('../img/carro2.jpg'); /*Adicionando uma imagem*/
+}
+#img-3{
+    background-image: url('../img/carro3.jpg'); /*Adicionando uma imagem*/
+}
+#img-4{
+    background-image: url('../img/carro4.jpg'); /*Adicionando uma imagem*/
+}
+#img-5{
+    background-image: url('../img/carro5.jpg'); /*Adicionando uma imagem*/
+}
+#img-6{
+    background-image: url('../img/carro6.jpg'); /*Adicionando uma imagem*/
+}
+
+h3{
+    border-left: 5px solid #269199; /*Cor da borda*/
+    padding-left: 7px; /*Borda a esquerda da palavra*/
+    font-size: 24px; /*Tamanho das letras*/
+    margin-bottom: 10px; /*Define area e ou margem*/
+    color:#269199; /*Cor das letras*/
+
+}
+
+.bold{
+    font-weight: bold; /*Colocar letras em negrito*/
+
+}
+
+.btn{
+    display: block;/*Evita espaçamentos*/
+    width: 100%; /*Comprimento dos botões*/
+    text-align: center; /*Centralizamos o botão*/
+    text-decoration: none;/*Retiramos a linha de decoração*/
+    text-transform: uppercase;/*Deixar letras maiúsculas*/
+    background-color:#269199; /*Cor do botão*/
+    color: #020305; /*Cor da letra*/
+    padding: 15px; /*Largura do botão*/
+    border-radius: 20px;/*Arredondamento das vertices*/
+    transition: 5ms;/*Tempo do efeito*/
+}
+.btn:hover{
+    background-color: #ec225e; /*Efeito alteração de cor no botão "comprar"*/
+}
+
+/*Rodapé*/
+footer{
+    background-color: #ec225e; /*Cor do rodapé*/
+    color: #020305; /*Cor das letras do rodapé*/
+    border-top: 5px solid #269199; /*Cor da borda do rodapé*/ 
+    padding: 80px; /*Largura do rodapé*/
+}
+
